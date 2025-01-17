@@ -3,7 +3,7 @@ local tweenService = game:GetService("TweenService")
 local runService = game:GetService("RunService")
 local coreGui = game:GetService("CoreGui")
 
-local framework = {signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmSeveralPeople/ui-framework/refs/heads/main/src.lua"))()}
+local framework = {signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmSeveralPeople/ui-framework/refs/heads/main/signal.lua"))()}
 
 function framework.format_table(tbl)
     if tbl then
